@@ -38,7 +38,7 @@ about:
   summary: |
     Performs Wilcox rank sum test, Kruskal rank sum test, Friedman rank sum test and McNemar test.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
 
 extra:
    recipe-maintainers:
