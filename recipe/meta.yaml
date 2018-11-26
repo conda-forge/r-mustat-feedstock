@@ -15,8 +15,8 @@ source:
   sha256: 9f9f425b562ceb2754bbd82f725ea0fc5c661a4f2b50ebdab50ca698643fe2a0
 
 build:
-  number: 0
-  skip: true  # [win32]
+  noarch: generic
+  number: 1000
   rpaths:
     - lib/R/lib/
     - lib/
@@ -38,8 +38,8 @@ about:
   summary: |
     Performs Wilcox rank sum test, Kruskal rank sum test, Friedman rank sum test and McNemar test.
   license_family: GPL3
-  license_file: '{{ environ["PREFIX"] }}\/lib\/R\/share\/licenses\/GPL-3'  # [unix]
-  license_file: '{{ environ["PREFIX"] }}\R\share\licenses\GPL-3'  # [win]
+  license_file: '{{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-3'
+
 extra:
    recipe-maintainers:
     - MathiasHaudgaard
