@@ -45,7 +45,4 @@ extra:
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - Johanneskoester
-    - Bgruening
-    - Daler
-    - Jdblischak
+    - conda-forge/r
