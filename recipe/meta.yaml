@@ -22,7 +22,7 @@ build:
     - lib/
 
 requirements:
-  build:
+  host:
     - r-base
   run:
     - r-base
@@ -34,7 +34,7 @@ test:
 
 about:
   home: https://cran.r-project.org/web/packages/muStat/index.html
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: |
     Performs Wilcox rank sum test, Kruskal rank sum test, Friedman rank sum test and McNemar test.
   license_family: GPL3
@@ -45,7 +45,4 @@ extra:
     - MathiasHaudgaard
     - FrodePedersen
     - ArneKr
-    - Johanneskoester
-    - Bgruening
-    - Daler
-    - Jdblischak
+    - conda-forge/r
